@@ -6,7 +6,7 @@
 #    By: rsathiad <3kiraj@gmail.com>                +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2018/07/09 08:38:15 by rsathiad          #+#    #+#              #
-#    Updated: 2018/11/09 23:12:05 by rsathiad         ###   ########.fr        #
+#    Updated: 2018/11/09 23:35:06 by rsathiad         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -54,7 +54,7 @@ fclean: clean
 
 re: fclean all
 
-CFLAGS = -Wall -Werror -Wextra -fsanitize=address
+CFLAGS = -Wall -Werror -Wextra
 
 PHONY:
 	clean fclean all re
